@@ -1,6 +1,5 @@
 header{
     border-style:initial;
-    border-color: violet;
     border-radius: absolute;
     width: 1440px;
     height: 188.19px;
@@ -8,6 +7,7 @@ header{
     top: 0px;
     text-align: center;
 }
+
 body{
     background-color:rgba(190, 189, 189, 0.836);
     background-size: cover;
@@ -16,6 +16,7 @@ body{
 h1{
     letter-spacing: 15px; 
     border-style: hidden;
+    font-weight: 700;
     background-color : grey;
     color: blue;
     text-align: center;
@@ -26,6 +27,13 @@ main{
     background-color: white;
     background-size: cover;
 }
+
+main ul li span{
+    font-weight: bold;
+    font-style: italic;
+    list-style-type: none;
+}
+
 h3{
     background-color: grey;
     color:#005677;
@@ -34,26 +42,15 @@ h3{
 
 }
 
-div{
-    background: white;
-    overflow: hidden;
-    background-size: cover;
-}
-.espacio{
-    background: green;
-    
-}
-#destacotitulo {
-
-    font-style: italic;
+.destacotitulo {
     font-weight: bold;
+    list-style-type: none;
 }
 
-.contenido {
-    font-style: normal;
-    font-weight: lighter;
-
+.sintipo{
+    list-style-type: none;
 }
+
 
 footer{
     background-color:#005677;
